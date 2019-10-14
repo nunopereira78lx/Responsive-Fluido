@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+        CONCEITOS DE LAYOUT
+    </title>
+
+
+    <!-- meta name para tornar o site responsive -->
+    <meta name="viewport" content="widht=device-wid, initial-scale=1.0, user-scalable=no">  
+
+    <!-- 
+        importar o css externo para dentro do nosso html 
+        1º importamos o reset e plugins e em ultimo o nosso css -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <style type="text/css">
+
+
+
+
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>HEADER</h1>
+    </header>
+    <div class="container">
+        <aside class="side-bar">
+            
+
+            <nav class="mynav">
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Work</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+
+            <div class="side-bar-ele">
+                <img src="https://picsum.photos/400/400">
+                <h3>Aside 1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, ea aspernatur quos placeat</p>
+
+
+            </div>
+
+            <div class="side-bar-ele">
+                <img src="https://picsum.photos/400/400">
+                <h3>Aside 2</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, ea aspernatur quos placeat</p>
+
+
+            </div>
+
+            <div class="side-bar-ele">
+                <img src="https://picsum.photos/400/400">
+                <h3>Aside 3</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, ea aspernatur quos placeat</p>
+
+
+            </div>
+
+
+
+
+        </aside>
+
+        <main class="main">
+
+            <h1>LAYOUT-4</h1>
+
+            <!-- inserir nova linha para ser o elemento pai dos elementos a flotuar -->
+            <!-- self-clear para limpar e assim as regras so se aplicam ao elemento pai e para os seus componentes-->
+            <div class="row self-clear">
+                <div class="layout-4">
+                    <img src="https://picsum.photos/600/400">
+                </div>
+
+                <div class="layout-4">
+                    <img src="https://picsum.photos/id/212/600/400">
+                </div>
+
+                <div class="layout-4">
+                    <img src="https://picsum.photos/id/210/600/400">
+                </div>
+
+                <div class="layout-4">
+                    <img src="https://picsum.photos/id/209/600/400">
+                </div>
+
+                <div class="layout-4">
+                    <img src="https://picsum.photos/id/208/600/400">
+                </div>
+
+                <div class="layout-4">
+                    <img src="https://picsum.photos/id/206/600/400">
+                </div>
+
+                <div class="layout-4">
+                    <img src="https://picsum.photos/id/203/600/400">
+                </div>
+
+                <div class="layout-4">
+                    <img src="https://picsum.photos/id/237/600/400">
+                </div>
+
+
+            </div> <!-- end row -->
+
+            <h1>LAYOUT-3</h1>
+            <div class="row self-clear">
+                <div class="layout-3">
+                    <img src="https://picsum.photos/id/317/600/600">
+                    <h3>Titulo 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quis qui eveniet delectus
+                        deserunt voluptatum? </p>
+
+                </div>
+
+                <div class="layout-3">
+                    <img src="https://picsum.photos/id/318/600/600">
+                    <h3>Titulo 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quis qui eveniet delectus
+                        deserunt voluptatum? </p>
+
+                </div>
+
+                <div class="layout-3">
+                    <img src="https://picsum.photos/id/319/600/600">
+                    <h3>Titulo 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quis qui eveniet delectus
+                        deserunt voluptatum? </p>
+
+                </div>
+
+
+            </div> <!-- end row -->
+
+            <h1>LAYOUT-2 - Colunas umas dentro das outras</h1>
+
+
+            <div class="row self-clear">
+
+                <div class="layout-2">
+                    <img src="https://picsum.photos/700/1051">
+                </div>
+
+                <div class="layout-2">
+                    <!-- nested columns - abrir um novo layout de colunas dentro da 2 coluna -->
+
+
+                    <div class="row self-clear">
+                        <div class="layout-2">
+                            <img src="https://picsum.photos/400/400">
+                        </div>
+
+                        <div class="layout-2">
+                            <img src="https://picsum.photos/400/400">
+                        </div>
+
+                        <div class="layout-2">
+                            <img src="https://picsum.photos/400/400">
+                        </div>
+
+                        <div class="layout-2">
+                            <img src="https://picsum.photos/400/400">
+                        </div>
+
+                        <div class="layout-2">
+                            <img src="https://picsum.photos/400/400">
+                        </div>
+
+                        <div class="layout-2">
+                            <img src="https://picsum.photos/400/400">
+                        </div>
+
+
+                    </div> <!-- end row -->
+
+                </div>
+
+
+
+
+
+            </div> <!-- end row -->
+
+
+
+
+
+
+
+        </main>
+    <footer class="my-footer">
+        <p>all rights reserve, 2019</p>
+    </footer>
+
+
+
+    </div> <!-- end container -->
+
+   
+
+</body>
+
+</html>
